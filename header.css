@@ -1,0 +1,62 @@
+.mainfirst {
+    background-image: url('space.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lgncontainer {
+    margin-left: 70px;
+ 
+}
+
+.lgn {
+    font-size:20px ;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+}
+
+.headerright {
+    justify-content:flex-end;
+    margin-right: 123px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.home, .skills, .projects, .contactme {
+border:none;;
+padding: 13px 25px 13px 25px;
+color: white;
+border-radius: 5px;
+font-family: arial;
+font-size: 12px;
+background-color: transparent;
+transition: background-color 0.75s;
+margin-top: 10px;
+}
+
+.home:hover,
+.skills:hover,
+.projects:hover, 
+.contactme:hover {
+background-color: black;
+}
+
+.home:active,
+.skills:active,
+.projects:active, 
+.contactme:active {
+background-color: #808080;
+}
+
