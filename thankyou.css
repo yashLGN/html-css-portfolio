@@ -1,0 +1,51 @@
+.fifthpage {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.thank {
+    font-size: 150px;
+    color: rgba(73,120,140,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 60px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.thank:hover {
+    color: white;
+}
+
+.you {
+    font-size: 150px;
+    color: rgba(73,120,140,255);
+    font-family: arial;
+    margin: 0;
+    text-align: end;
+    margin-right: 30px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.you:hover {
+    color: white;
+}
+
+.for {
+    font-size: 150px;
+    color: rgba(73,120,140,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 70px;
+    width: 800px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.for:hover {
+    color: white;
+}

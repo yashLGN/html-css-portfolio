@@ -1,0 +1,252 @@
+.maintop {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.lefttop { 
+width: 68vh;
+z-index: 1;
+margin-left: 65px;
+}
+
+.righttop {
+ /*   background-color:  rgba(0,0,0,0.2); */
+width: 69vh;
+z-index: 1;
+margin-left: 25px;
+}
+
+.iam {
+    font-family: arial;
+    font-weight: bolder;
+    color: white;
+    font-size: 55px;
+    margin: 0;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.yash {
+    font-family: arial;
+    font-weight: bolder;
+    color: white;
+    font-size: 55px;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.Web-Development {
+    color: white;
+}
+
+.Template-Making {
+    color: white;
+}
+
+.name {
+    font-family: arial;
+    color: white;
+    margin: 0;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.namecontainer {
+    width: 280px;
+}
+
+.mainbottom {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.rightbottom {
+background-color:  rgba(0,0,0,0.9);
+width: 71vh;
+z-index: 1;
+display: flex;
+flex-direction: row;
+}
+
+.profilepicmain {
+    width:197px;
+    height: 197px;
+    display: inline-block;
+    align-items: stretch;
+}
+
+.quote {
+    font-family: arial;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+
+.innews {
+    display: inline-block;
+    font-family: arial;
+    font-weight: 500;
+    margin: 0;
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.readmore {
+    display: inline-block;
+    font-family: arial;
+    font-weight: 700;
+    margin: 0;
+    font-size: 12px;
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgba(73,120,140,255);
+    text-decoration: none;
+}
+
+.leftbottom {
+    background-color: rgba(0,0,0,0.9);
+    width: 75vh;
+    z-index: 1;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+
+    }
+
+.leftleftbottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.currently {
+    font-family: arial;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px
+}
+
+.time {
+    display: inline-block;
+    font-family: arial;
+    font-weight: 500;
+    margin: 0;
+    width: 180px;
+    color: rgba(97,97,97,255);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.currently-working-on {
+    display: inline-block;
+    font-family: arial;
+    font-weight: 500;
+    margin: 0;
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.emptylink {
+    text-decoration: none;  
+    color: rgba(73,120,140,255);
+    display: inline-block;
+    font-family: arial;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    width: 80px;
+
+}
+
+.youtube {
+    font-family: arial;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    margin-top: 41px;
+    margin-left: 20px}
+
+.youtubeactive {  
+    font-family: arial;
+    font-weight: 500;
+    margin: 0;
+    width: 150px;
+    color: rgba(97,97,97,255);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.youtubelink {
+    text-decoration: none;  
+    color: rgba(73,120,140,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    width: 80px;
+}
+
+.pagenumbera {
+    font-size: 50px;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 80px
+}
+
+.homepage {
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px
+ 
+}
+
+.currentstatus {
+    font-size: 15px;
+    color: rgba(97,97,97,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px
+}
+
+.madeby {
+    font-size: 15px;
+    color: rgba(97,97,97,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px
+}

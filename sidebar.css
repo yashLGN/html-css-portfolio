@@ -1,0 +1,76 @@
+.sidebar {
+    background-color:  rgba(44,44,46,255);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidetop {
+    background-color: rgba(63,63,63,255);
+    height: 60px;
+    transition: background-color 0.75s;
+}
+
+.sidetop:active {
+    background-color: #808080;
+}
+
+.sidetop:hover {
+    background-color:black ;
+}
+
+.menubutton {
+    width: 50px;
+    height: 50px;
+    background-color:transparent;
+    border: none;
+}
+
+.menuimg { 
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.sidebottom {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+    gap: 10px;
+}
+
+.in, .tw, .ma {
+    width: 80%;
+    transform: rotate(270deg);
+    font-family: Arial;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 17px 40px 17px 30px;
+    transition: background-color 0.75s;
+    margin-left: -18px;
+    height: 56px;
+}
+
+.in:hover, .tw:hover, .ma:hover {
+    background-color: black;
+}
+
+.in:active, .tw:active, .ma:active {
+    background-color: #808080;
+    padding: 17px 40px 17px 30px;
+}
+
+.sidebuttona, .sidebuttonb, .sidebuttonc {
+    width: 40px;
+}

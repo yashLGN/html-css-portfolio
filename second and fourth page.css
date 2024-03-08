@@ -1,0 +1,369 @@
+.secondpage {
+    background-color: black;
+    height: 111vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.breakermaina {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.breakera {
+    width: 70%;
+    height: 15px;
+    background-color:  rgba(73,120,140,255);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.topb {
+    width: 80%;
+    height: 15px;
+    background-color:  rgba(73,120,140,255);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.middleb {
+    width: 90%;
+    height: 15px;
+    background-color:  rgba(73,120,140,255);
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secondcontainer {
+    display:flex ;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.pagenumberb {
+    font-size: 50px;
+    font-family: arial;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 80px;
+    margin-right: 30px;
+}
+
+.homepageb {
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.currentstatusb {
+    font-size: 15px;
+    color: rgba(97,97,97,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.madebyb {
+    font-size: 15px;
+    color: rgba(97,97,97,255);
+    font-family: arial;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.rightb {
+    width: 35vh;
+    margin-left: 25px;
+    height: 560px;
+    display:flex ;
+    flex-direction: column;
+    align-items: end;
+}
+
+.breakermainb {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.breakerc {
+    width: 70%;
+    height: 15px;
+    background-color:  rgba(73,120,140,255);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.topc {
+    width: 80%;
+    height: 15px;
+    background-color:  rgba(73,120,140,255);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.middlec {
+    width: 90%;
+    height: 15px;
+    background-color:  rgba(73,120,140,255);
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftb {
+    margin-left: 51px;
+    width: 104vh;
+    background-color: rgb(88, 85, 85,0.1);
+    height: 560px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap: 40px;
+}
+
+.bar1a, .bar2a, .bar3a, .bar4a {
+    width: 80%;
+    background-color: white;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.bar1b, .bar2b, .bar3b, .bar4b {
+    background-color: rgba(0,0,0,0.95);
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: white;
+    font-family: arial;
+    font-weight: 550;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;   
+}
+
+.bar1b {
+    width: 70%;
+}
+
+.bar2b {
+    width: 60%;
+}
+
+.bar3b {
+    width: 80%;
+}
+
+.bar4b {
+    width: 30%;
+}
+
+.seventy {
+    margin-right: 4px;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.95);
+    color: white;
+    padding: 8px 8px 8px 11px;
+    border-radius: 15px;
+}
+
+.leftx {
+    margin-left: 51px;
+    width: 104vh;
+    background-color: transparent;
+    height: 560px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    gap: 40px;
+}
+
+.fourthleft {
+    width: 50%;
+    height: 100%;
+    background-color:rgb(88, 85, 85,0.1);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 60px;
+}
+
+.contactdetails {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 600;
+}
+.telegramid {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.email {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 500;
+}
+.website {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 500;
+}
+.mobileno {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.fourthright {
+    width: 50%;
+    height: 100%;
+    background-color:rgb(88, 85, 85,0.1);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.abcd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.reachme {
+    color: white;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.yourname {
+    width: 280px;
+    height: 30px;
+    padding-left: 5px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: arial;
+    transition: height 0.5s;
+}
+
+.yourname:active {
+    height: 40px;
+}
+.yourname:hover {
+    height: 40px;
+}
+
+.youremail {
+    width: 280px;
+    height: 30px;
+    padding-left: 5px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: arial;
+    transition: height 0.5s;
+}
+
+.youremail:active {
+    height: 40px;
+}
+.youremail:hover {
+    height: 40px;
+}
+
+.yourmessage {
+    width: 282px;
+    height: 80px;
+    padding-left: 5px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: grey;
+    font-family: arial;
+    transition: height 0.5s;
+}
+
+.yourmessage:active {
+    height: 100px;
+}
+.yourmessage:hover {
+    height: 100px;
+}
+
+.sendbutton {
+    padding: 8px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(73,120,140,255);
+    color: black;  
+    transition:color 0.5s;
+}
+
+.sendbutton:hover {
+    color: rgba(73,120,140,255);
+    background-color: black;
+}
