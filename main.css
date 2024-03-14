@@ -107,7 +107,7 @@ flex-direction: row;
 }
 
 .readmore {
-    display: inline-block;
+    display: block;
     font-family: arial;
     font-weight: 700;
     margin: 0;
