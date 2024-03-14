@@ -71,7 +71,7 @@ margin-left: 25px;
 
 .rightbottom {
 background-color:  rgba(0,0,0,0.9);
-width: 71vh;
+width: 71vw;
 z-index: 1;
 display: flex;
 flex-direction: row;
@@ -121,7 +121,7 @@ flex-direction: row;
 
 .leftbottom {
     background-color: rgba(0,0,0,0.9);
-    width: 75vh;
+    width: 75vw;
     z-index: 1;
     margin-left: 50px;
     display: flex;
