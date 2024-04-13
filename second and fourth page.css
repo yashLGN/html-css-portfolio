@@ -308,6 +308,10 @@
 .yourname:active {
     height: 40px;
 }
+.yourname:focus {
+    border: none;
+    outline: none;
+}
 .yourname:hover {
     height: 40px;
 }
@@ -327,6 +331,10 @@
 
 .youremail:active {
     height: 40px;
+}
+.youremail:focus {
+    border: none;
+    outline: none;
 }
 .youremail:hover {
     height: 40px;
@@ -348,6 +356,10 @@
 
 .yourmessage:active {
     height: 100px;
+}
+.yourmessage:focus {
+    border: none;
+    outline: none;
 }
 .yourmessage:hover {
     height: 100px;
